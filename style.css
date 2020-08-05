@@ -47,7 +47,7 @@ button {
 
 header {
   text-align: center;
-  background-color: #dbe2ef;
+  background-color: #f9f7f7;
 }
 
 .title {
@@ -91,24 +91,11 @@ header .desc {
 
 
 .menu-item {
-  background-color: #dbe2ef;
   display: none;
   width: 200px;
   height: 50px;
   line-height: 50px;
   font-size: 18px;
-}
-
-.menu-button a {
-  display: inline-block;
-  height: 18px;
-  line-height: 18px;
-}
-
-.menu-button a:hover {
-  font-weight: bold;
-  color: #112d4e;
-  transition: .15s;
 }
 
 .cheer-text {
@@ -141,24 +128,3 @@ header .desc {
   display: none;
 }
 
-
-
-
-
-
-
-/* footer section */
-
-.footer {
-  height: 100px;
-  background-color: #dbe2ef;
-  text-align: center;
-  padding: 30px 0 20px;
-}
-
-.footer .copyright {
-  font-size: 1.2rem;
-  height: 30px;
-  line-height: 30px;
-  letter-spacing: 1px;
-}
