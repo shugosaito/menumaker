@@ -37,7 +37,7 @@ var tricepsMenus = ["narrow bench press", "cable press down", "lying extention",
 document.querySelectorAll(".body-part")[0].addEventListener("click", function () {
   this.style.color = "#3f72af";
   document.querySelector(".chest-menu").style.display = "inline-block";
-  document.getElementsByClassName("chest-menu")[0].innerHTML = chestMenus[randomNumber];
+  document.getElementsByClassName("chest-menu")[0].innerHTML = "<a>" + chestMenus[randomNumber] + "<a/>";
 });
 
 
@@ -45,32 +45,32 @@ document.querySelectorAll(".body-part")[0].addEventListener("click", function ()
 document.querySelectorAll(".body-part")[1].addEventListener("click", function () {
   this.style.color = "#3f72af";
   document.querySelector(".back-menu").style.display = "inline-block";
-  document.getElementsByClassName("back-menu")[0].innerHTML = backMenus[randomNumber];
+  document.getElementsByClassName("back-menu")[0].innerHTML = "<a>" + backMenus[randomNumber] + "<a/>";
 });
 
 
 document.querySelectorAll(".body-part")[2].addEventListener("click", function () {
   this.style.color = "#3f72af";
   document.querySelector(".leg-menu").style.display = "inline-block";
-  document.getElementsByClassName("leg-menu")[0].innerHTML = legMenus[randomNumber];
+  document.getElementsByClassName("leg-menu")[0].innerHTML = "<a>" + legMenus[randomNumber] + "<a/>";
 });
 
 document.querySelectorAll(".body-part")[3].addEventListener("click", function () {
   this.style.color = "#3f72af";
   document.querySelector(".shoulder-menu").style.display = "inline-block";
-  document.getElementsByClassName("shoulder-menu")[0].innerHTML = shoulderMenus[randomNumber];
+  document.getElementsByClassName("shoulder-menu")[0].innerHTML = "<a>" + shoulderMenus[randomNumber] + "<a/>";
 });
 
 document.querySelectorAll(".body-part")[4].addEventListener("click", function () {
   this.style.color = "#3f72af";
   document.querySelector(".biceps-menu").style.display = "inline-block";
-  document.getElementsByClassName("biceps-menu")[0].innerHTML = bicepsMenus[randomNumber];
+  document.getElementsByClassName("biceps-menu")[0].innerHTML = "<a>" + bicepsMenus[randomNumber] + "<a/>";
 });
 
 document.querySelectorAll(".body-part")[5].addEventListener("click", function () {
   this.style.color = "#3f72af";
   document.querySelector(".triceps-menu").style.display = "inline-block";
-  document.getElementsByClassName("triceps-menu")[0].innerHTML = tricepsMenus[randomNumber];
+  document.getElementsByClassName("triceps-menu")[0].innerHTML = "<a>" + tricepsMenus[randomNumber] + "</a>";
   document.querySelector(".cheer-text").style.display = "block";
 });
 
